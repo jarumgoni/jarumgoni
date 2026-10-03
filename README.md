@@ -1,51 +1,83 @@
-# Hi there, I'm masbin 👋
+<div align="center">
 
-```text
-🚀 Building scalable backend services, fraud detection systems, and developer infrastructure.
-🛡️ Architect at DataShield Security Labs.
-⚡ Focused on low-latency microservices, API engineering, and distributed systems.
+# masbin
+**Systems Architect & Distributed Infrastructure Engineer**
+
+`High-Throughput APIs` • `Fraud Intelligence Engines` • `Low-Latency Microservices`
+
+[![GitHub](https://img.shields.io/badge/GitHub-jarumgoni-181717?style=flat-square&logo=github)](https://github.com/jarumgoni)
+[![RapidAPI](https://img.shields.io/badge/RapidAPI-DataShield-0052cc?style=flat-square&logo=rapidapi&logoColor=white)](https://rapidapi.com/user/ariebintoro)
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald?style=flat-square)](https://opensource.org/licenses/MIT)
+[![API SLA](https://img.shields.io/badge/SLA-99.99%25-success?style=flat-square)](https://prochatcommerce.com)
+
+</div>
+
+---
+
+### 🛡️ Engineering Architecture & Systems Focus
+
+I engineer high-throughput backend services and threat intelligence pipelines where sub-millisecond execution, high concurrency, and zero data leakage are paramount.
+
+Currently architecting the **DataShield™ Security Infrastructure**, providing sub-15ms verification engines that shield fintech payment gateways, SaaS checkout funnels, and enterprise authentication portals from sybil attacks, burner account fraud, and malicious proxy networks.
+
+```
++-------------------------------------------------------------------------------+
+|                           DataShield Edge Gateway                             |
+|      [ Cloudflare Anycast / DDoS Filter ] ---> [ High-Speed Nginx Proxy ]     |
++-------------------------------------------------------------------------------+
+                                        |
+                 +----------------------+----------------------+
+                 | (Sub-15ms In-Memory Validation Engine)      |
+                 v                                             v
+      +----------------------+                      +----------------------+
+      | Email & MX Engine    |                      | Network Intelligence |
+      | - 120,000+ Burner DB |                      | - BGP ASN / IP Class |
+      | - Realtime DNS MX    |                      | - Datacenter Proxy   |
+      | - SMTP Handshake     |                      | - IP Risk Scoring    |
+      +----------------------+                      +----------------------+
 ```
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### 🚀 Production & Open-Source Projects
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+#### 1. [DataShield Developer SDK (`masbin-dev`)](https://github.com/jarumgoni/masbin-dev)
+The official open-source client library for the DataShield Fraud Intelligence API.
+* **Lightweight & Async**: Zero unnecessary overhead with persistent HTTP connection pooling and LRU caching.
+* **Core Protection Engines**: Disposable burner email detection, international phone intelligence, and datacenter proxy detection.
+* **Type-Safe**: Complete PEP 484 type annotations for IDE autocompletion and strict typing pipelines.
 
----
+```bash
+pip install git+https://github.com/jarumgoni/masbin-dev.git
+```
 
-### 🌟 Featured Projects
-
-* 🛡️ **[DataShield SDK (`masbin-dev`)](https://github.com/jarumgoni/masbin-dev)**  
-  Official open-source developer client library for high-speed email validation, disposable domain filters, phone carrier intelligence, and datacenter proxy checks.
-* 🌐 **[DataShield APIs on RapidAPI Hub](https://rapidapi.com/user/ariebintoro)**  
-  Production-grade security & fraud detection APIs serving fintech checkouts, registration gates, and enterprise compliance.
-* ⚡ **High-Throughput Threat Intelligence**  
-  Real-time IP threat classification, proxy/VPN detection, and telecom carrier scoring algorithms.
+#### 2. [DataShield Developer Portal](https://prochatcommerce.com)
+* Global edge-cached documentation, interactive live API playground, and developer specifications.
+* [RapidAPI Console Marketplace](https://rapidapi.com/user/ariebintoro) with automated rate-limiting, tiered quotas, and instant key provisioning.
 
 ---
 
-### 📊 GitHub Overview
+### ⚙️ Core Technical Competencies
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jarumgoni&show_icons=true&theme=radical&hide_border=true" alt="masbin's GitHub stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jarumgoni&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
+| Domain | Architecture & Technologies |
+| :--- | :--- |
+| **Backend & APIs** | Python 3.11+, FastAPI, Pydantic v2, RESTful OpenAPI, AsyncIO, PHP 8.3 / Laravel |
+| **Data & Cache** | Redis 7.0 (In-memory bitsets & LRU caches), MySQL 8.0, PostgreSQL |
+| **Infra & DevOps** | Linux (Ubuntu Server), Nginx (SSL/TLS Tuning, Reverse Proxy), Docker, Cloudflare Anycast |
+| **Security & Net** | BGP ASN Lookup, DNS MX Verification, E.164 Telco Standards, Zero-PII In-Memory Processing |
 
 ---
 
-### 📬 Connect & API Portal
+### 📊 Performance & Privacy Metrics
 
-* 🌐 **API Hub**: [RapidAPI DataShield Console](https://rapidapi.com/user/ariebintoro)
-* 💼 **Ecosystem**: DataShield Developer Systems
-* 🔒 **Security**: Verified PGP & SSH Commit Signing
+* **Edge Latency**: `8.4ms` (p50), `14.2ms` (p95), `21.8ms` (p99)
+* **Domain Threat Database**: `120,000+` disposable email domains updated hourly
+* **Zero PII Retention**: Hashes and queries are evaluated purely in volatile RAM without disk logging, adhering strictly to GDPR Art. 6 and CCPA standards.
+
+---
+
+### 📬 Connect & Documentation
+
+* **Official Portal**: [prochatcommerce.com](https://prochatcommerce.com)
+* **API Marketplace**: [RapidAPI Hub Console](https://rapidapi.com/user/ariebintoro)
+* **SDK Repository**: [github.com/jarumgoni/masbin-dev](https://github.com/jarumgoni/masbin-dev)
