@@ -6,7 +6,7 @@
 `High-Throughput APIs` • `Fraud Intelligence Engines` • `Low-Latency Microservices`
 
 [![GitHub](https://img.shields.io/badge/GitHub-jarumgoni-181717?style=flat-square&logo=github)](https://github.com/jarumgoni)
-[![RapidAPI](https://img.shields.io/badge/RapidAPI-DataShield-0052cc?style=flat-square&logo=rapidapi&logoColor=white)](https://rapidapi.com/user/ariebintoro)
+[![RapidAPI](https://img.shields.io/badge/RapidAPI-DataShield-0052cc?style=flat-square&logo=rapidapi&logoColor=white)](https://rapidapi.com/ariebintoro/api/datashield-email-verification-fraud-detection-api)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald?style=flat-square)](https://opensource.org/licenses/MIT)
 [![API SLA](https://img.shields.io/badge/SLA-99.99%25-success?style=flat-square)](https://prochatcommerce.com)
 
@@ -53,7 +53,7 @@ pip install git+https://github.com/jarumgoni/masbin-dev.git
 
 #### 2. [DataShield Developer Portal](https://prochatcommerce.com)
 * Global edge-cached documentation, interactive live API playground, and developer specifications.
-* [RapidAPI Console Marketplace](https://rapidapi.com/user/ariebintoro) with automated rate-limiting, tiered quotas, and instant key provisioning.
+* [RapidAPI Console Marketplace](https://rapidapi.com/ariebintoro/api/datashield-email-verification-fraud-detection-api) with automated rate-limiting, tiered quotas, and instant key provisioning.
 
 ---
 
@@ -79,5 +79,5 @@ pip install git+https://github.com/jarumgoni/masbin-dev.git
 ### 📬 Connect & Documentation
 
 * **Official Portal**: [prochatcommerce.com](https://prochatcommerce.com)
-* **API Marketplace**: [RapidAPI Hub Console](https://rapidapi.com/user/ariebintoro)
+* **API Marketplace**: [RapidAPI Hub Console](https://rapidapi.com/ariebintoro/api/datashield-email-verification-fraud-detection-api)
 * **SDK Repository**: [github.com/jarumgoni/masbin-dev](https://github.com/jarumgoni/masbin-dev)
